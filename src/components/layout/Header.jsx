@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { navigation } from '../../data/navigation'
 import { motion } from 'framer-motion'
+import LogoHeader from "/src/assets/logo-envia-01.png"
+
 
 const Header = () => {
   return (
@@ -8,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="https://imgur.com/jPtdhhZ.png" 
+            src={LogoHeader} 
             alt="envia logo" 
             className="h-12"
           />

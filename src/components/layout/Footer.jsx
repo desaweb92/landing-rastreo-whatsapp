@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { socialLinks } from '../../data/navigation'
 import { motion } from 'framer-motion'
+import LogoFooter from "/src/assets/logo-blanco-01.png"
 
 const Footer = () => {
   return (
@@ -10,7 +11,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="https://imgur.com/oYqJkkG.png" 
+                src={LogoFooter} 
                 alt="envia logo" 
                 className="h-10"
               />
